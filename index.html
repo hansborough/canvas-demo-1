@@ -21,7 +21,7 @@
 
         ctx.fillStyle = "blue";
 
-        canvas.onclick = (e) => {
+        canvas.onmousemove = (e) => {
             console.log(e.clientX)
             console.log(e.clientY)
             ctx.fillRect(e.clientX - 5, e.clientY - 5, 10, 10);
